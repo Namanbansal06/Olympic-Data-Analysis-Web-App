@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import plotly.figure_factory as ff
 import preprocessor,helper
 
-df = pd.read_csv('athlete_events.csv')
+df = pd.read_csv('athlete_events.zip')
 region_df = pd.read_csv('noc_regions.csv')
 
 df = preprocessor.preprocess(df, region_df)
